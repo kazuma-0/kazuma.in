@@ -4,6 +4,7 @@
       <CBox font-family="body" as="main" v-bind="mainTheme[colorMode]">
         <CReset></CReset>
         <NavBar></NavBar>
+        <MobileNavbar></MobileNavbar>
         <Nuxt></Nuxt>
       </CBox>
     </CColorModeProvider>
