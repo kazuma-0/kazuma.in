@@ -13,19 +13,21 @@
     pl="5px"
   >
     <c-image size="50px" src="logo.gif" />
-    <c-button variant="ghost" size="sm" @click="show = true">
+<!--    <c-button variant="ghost" size="sm">-->
       <svg
         :style="{ height: '35px', userSelect: 'none' }"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 25 25"
+        @click="show = true"
+
       >
         <path
           d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
           fill="currentColor"
         ></path>
       </svg>
-    </c-button>
+<!--    </c-button>-->
     <c-drawer :is-open="show" placement="right" :on-close="close">
       <c-drawer-overlay />
       <c-drawer-content>
