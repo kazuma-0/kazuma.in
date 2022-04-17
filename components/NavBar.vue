@@ -2,7 +2,7 @@
   <c-box
     h="100vh"
     w="4rem"
-    :bg="colorMode == 'light' ? 'gray.300' : 'gray.600'"
+    :bg="colorMode == 'light' ? 'gray.300' : 'gray.700'"
     :display="{ base: 'none', sm: 'flex' }"
     :justify-content="'space-between'"
     :align-items="'center'"
@@ -36,9 +36,15 @@
             as="router-link"
             to="/blog"
             :style="{ transform: 'rotate(-90deg)' }"
-            disabled
+            :is-disabled="true"
           >
-            Blog
+            Blog </c-link
+          ><c-link
+            as="router-link"
+            to="/utils"
+            :style="{ transform: 'rotate(-90deg)' }"
+          >
+            Utilities
           </c-link>
         </c-flex>
       </c-box>
