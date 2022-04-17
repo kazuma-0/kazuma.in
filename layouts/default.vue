@@ -17,7 +17,6 @@ import {
   CReset,
   CBox,
 } from '@chakra-ui/vue'
-import { getUser } from '~/supabase'
 
 export default {
   name: 'DefaultLayout',
@@ -31,11 +30,11 @@ export default {
     return {
       mainTheme: {
         dark: {
-          bg: 'gray.900',
+          bg: 'gray.700',
           color: 'whiteAlpha.900',
         },
         light: {
-          bg: '#F3F3F3',
+          bg: 'white',
           color: 'gray.900',
         },
       },
@@ -53,9 +52,6 @@ export default {
     }
     if (this.chakraColorMode !== localStorage.getItem('theme')) {
       this.chakraToggleColorMode()
-    }
-    if (getUser() !== null) {
-      console.log(this.$store.commit('user/setUser', true))
     }
   },
 }
