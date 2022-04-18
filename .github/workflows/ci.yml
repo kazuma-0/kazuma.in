@@ -41,7 +41,7 @@ jobs:
         run: npm ci --prefer-offline --no-audit
 
       - name: Lintfix
-        run: npm run Lintfix
+        run: npm run lintfix
 
       - name: Run linter 👀
         run: npm run lint
