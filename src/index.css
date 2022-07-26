@@ -1,13 +1,43 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+* {
+  scroll-behavior: smooth;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --var-nav-text-color: white;
+  --var-body-background-color: #1a1b1e;
+  --var-introduction-color: #fdba5b;
+}
+
+* {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: Karla;
+  src: url("./fonts/Karla-Regular.ttf");
+}
+@font-face {
+  font-family: "Karala Bold";
+  src: url("./fonts/Karla-Bold.ttf");
+}
+@font-face {
+  font-family: "Whitney bold";
+  src: url("./fonts/whitney-bold.otf");
+}
+
+@font-face {
+  font-family: Whitney;
+  src: url("./fonts/whitney-book.otf");
 }
