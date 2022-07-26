@@ -1,6 +1,6 @@
-import { createStyles, Anchor, Menu, Burger } from "@mantine/core";
+import { Anchor, Burger, createStyles, Menu } from "@mantine/core";
 import { useState } from "react";
-import { Text } from "@react-three/drei";
+
 const navLinks = [
   {
     name: "Projects",
@@ -131,9 +131,9 @@ function NavBar() {
   const { classes } = useStyles();
   return (
     <nav className={classes.wrapper}>
-      <a href="#" className={classes.brand}>
+      <Anchor href="#" className={classes.brand}>
         Kazuma.in
-      </a>
+      </Anchor>
       <div className={classes.links}>
         {navLinks.map((x) => {
           if (!x.disabled) {
@@ -143,6 +143,7 @@ function NavBar() {
               </Anchor>
             );
           }
+          return null;
         })}
       </div>
       <MobileLink classes={classes}></MobileLink>

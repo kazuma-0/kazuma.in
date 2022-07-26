@@ -1,4 +1,4 @@
-import { Button, createStyles, MantineProvider } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
 import Layout from "./Layout";
 
 function App() {

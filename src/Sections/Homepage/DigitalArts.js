@@ -1,5 +1,6 @@
 import { createStyles, Grid, Image, Space, Title } from "@mantine/core";
 import img from "../../Assets/scifi-artstation.png";
+
 const useStyle = createStyles((theme) => ({
   font_whitney: {
     fontFamily: "whitney bold",

@@ -1,8 +1,9 @@
-import { createStyles, Container } from "@mantine/core";
+import { createStyles } from "@mantine/core";
 import NavBar from "./Components/NavBar";
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Footer from "./Components/Footer";
+
 const useStyles = createStyles((theme, _params, getRef) => ({
   wrapper: {
     // subscribe to color scheme changes right in your styles

@@ -16,6 +16,7 @@ import {
   IconBrandLinkedin,
   IconMail,
 } from "@tabler/icons";
+
 const useStyle = createStyles(() => ({
   font_whitney: {
     fontFamily: "whitney bold",
