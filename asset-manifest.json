@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59671c83.css",
+    "main.js": "/static/js/main.eef801db.js",
+    "static/media/scifi-artstation.png": "/static/media/scifi-artstation.a224ef553f6062f31fc4.png",
+    "static/media/whitney-bold.otf": "/static/media/whitney-bold.06895b8ac81a99798f1d.otf",
+    "static/media/whitney-book.otf": "/static/media/whitney-book.4812f96cb9a630349a71.otf",
+    "static/media/Karla-Bold.ttf": "/static/media/Karla-Bold.95b9aaed165e927bcec0.ttf",
+    "static/media/Karla-Regular.ttf": "/static/media/Karla-Regular.be21073cc7dbe57407ea.ttf",
+    "index.html": "/index.html",
+    "main.59671c83.css.map": "/static/css/main.59671c83.css.map",
+    "main.eef801db.js.map": "/static/js/main.eef801db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59671c83.css",
+    "static/js/main.eef801db.js"
+  ]
+}
