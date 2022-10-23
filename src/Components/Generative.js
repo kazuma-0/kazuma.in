@@ -3,6 +3,7 @@ import { Bloom, EffectComposer } from "@react-three/postprocessing";
 import { useRef } from "react";
 import { MathUtils } from "three";
 import colors from "nice-color-palettes/500.json";
+import { OrbitControls } from "@react-three/drei";
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 function generateShapes() {
@@ -73,6 +74,7 @@ function Generative() {
           opacity={20}
         />
       </EffectComposer>
+      <OrbitControls />
     </Canvas>
   );
 }
